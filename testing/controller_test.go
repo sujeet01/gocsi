@@ -12,8 +12,8 @@ import (
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
 
-	"github.com/rexray/gocsi/mock/service"
-	"github.com/rexray/gocsi/utils"
+	"github.com/sujeet01/gocsi/mock/service"
+	"github.com/sujeet01/gocsi/utils"
 )
 
 var _ = Describe("Controller", func() {

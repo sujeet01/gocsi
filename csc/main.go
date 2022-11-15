@@ -1,6 +1,6 @@
 package main
 
-import "github.com/rexray/gocsi/csc/cmd"
+import "github.com/sujeet01/gocsi/csc/cmd"
 
 func main() {
 	cmd.Execute()

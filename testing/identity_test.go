@@ -8,9 +8,9 @@ import (
 	"google.golang.org/grpc/status"
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
-	"github.com/rexray/gocsi"
-	csictx "github.com/rexray/gocsi/context"
-	"github.com/rexray/gocsi/mock/service"
+	"github.com/sujeet01/gocsi"
+	csictx "github.com/sujeet01/gocsi/context"
+	"github.com/sujeet01/gocsi/mock/service"
 )
 
 var _ = Describe("Identity", func() {
